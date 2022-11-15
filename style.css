@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 41, 51);
+    font-family: 'Combo', cursive;
+
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    background: #fff url(/websiteTemplates/1494.gif) no-repeat center;
+    position: fixed;
+    z-index: 99999;
+
+}
+
+.main {
+    width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 41, 51);
+}
+
+li {
+    float: right;
+    /* border-right: 1px solid #bbb; */
+    padding-right: 10vh;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: black;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-left: 40px;
+    color: aquamarine;
+    font-family: "Sofia", sans-serif;
+}
+
+.logo span {
+    color: beige;
+}
+
+.icon p {
+    padding-left: 40px;
+    color: aliceblue;
+}
+
+.active {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: black;
+}
+
+.BODY {
+    margin-top: 25vh;
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.BODY .intro {
+    padding-right: 150px;
+}
+
+.BODY .pic img {
+    border-radius: 50%;
+    height: 60vh;
+    border: solid 2px whitesmoke;
+
+}
+
+.change_content::after {
+    content: '';
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    10% {
+        content: " a SINGER";
+    }
+
+    20% {
+        content: " a GUITARIST";
+    }
+
+    30% {
+        content: " a FREELANCER";
+    }
+
+    40% {
+        content: " a GRAPHICS DESIGNER";
+    }
+
+    50% {
+        content: " a VECTOR ARTIST";
+    }
+
+    60% {
+        content: " a FITNESS FREAK";
+    }
+
+    70% {
+        content: " a STUDENT";
+    }
+
+    100% {
+        content: "a LEARNER";
+    }
+}
+
+.intro span {
+    color: aquamarine;
+}
+
+.intro {
+    color: aliceblue;
+}
+
+/*DOWNLOAD BUTTON*/
+.Download {
+    margin-top: 6vh;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 20vh;
+    border-top: solid black;
+
+}
+
+.FooterContent {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.FooterContent span {
+    color: aquamarine;
+}
+
+
+
+/*CONTACTS*/
+
+.ContactForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.2rem;
+}
+
+.ContactForm form {
+    position: relative;
+    width: 550px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: rgb(18, 9, 27);
+    color: green;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Space Mono', monospace;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+form .send-btn {
+    color: black;
+    cursor: pointer;
+    background-color: aquamarine;
+    width: 107%;
+    box-shadow: 7px 5px black;
+    padding: 0 25px;
+    line-height: 49px;
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+
+}
+
+form .send-btn:hover {
+    background: black;
+    color: green;
+    box-shadow: 4px 4px black;
+}
+
+.ContactHeader {
+    margin-top: 10vh;
+    border-bottom: solid 2px white;
+    color: aquamarine;
+    text-align: center;
+}
+
+.ContactHeader span {
+    color: whitesmoke;
+}
+
+
+/*SERVICES*/
+
+.center {
+    text-align: center;
+    margin-top: 10vh;
+
+}
+
+.center h2 {
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 4 px;
+}
+
+.ServiceContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.4rem;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.ServiceContent a {
+    text-decoration: none;
+}
+
+.row {
+    background: black;
+    padding: 60px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.40s;
+}
+
+.row span {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: black;
+
+}
+
+.row h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+}
+
+.row p {
+    font-size: 18px;
+    background-color: black;
+    line-height: 30px;
+    color: aquamarine;
+}
+
+.row:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 15px 30px 0px rgb(0 0 0 /70%);
+}
+
+.cta {
+    background: black;
+    width: 100%;
+    padding: 150px 0;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.cta h4 {
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.cta h2 {
+    color: aliceblue;
+    background-color: black;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cta a {
+    background-color: aquamarine;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 7px;
+    color: black;
+    font-weight: 500;
+
+
+}
+
+.cta a:hover {
+    color: aquamarine;
+    background-color: black;
+    border: solid azure;
+}
+
+/*__ RESUME __*/
+
+.ResumeBack {
+    align-items: center;
+    text-align: center;
+}
+
+.ResumeBack img {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    height: 200vh;
+}

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 41, 51);
+    font-family: 'Combo', cursive;
+
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    background: #fff url(/websiteTemplates/1494.gif) no-repeat center;
+    position: fixed;
+    z-index: 99999;
+
+}
+
+
+.main {
+    width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 41, 51);
+}
+
+li {
+    float: right;
+    /* border-right: 1px solid #bbb; */
+    padding-right: 10vh;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: black;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-left: 40px;
+    color: aquamarine;
+    font-family: "Sofia", sans-serif;
+}
+
+.logo span {
+    color: beige;
+}
+
+.icon p {
+    padding-left: 40px;
+    color: aliceblue;
+}
+
+.AboutText {
+    color: white;
+    padding-left: 7vw;
+}
+
+
+th,
+td {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+table .Left {
+    width: 8vw;
+    padding: 10px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+}
+
+table .Right {
+    padding: 10px;
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+    width: 15vw;
+    border-color: white;
+    background-color: whitesmoke;
+}
+
+.AboutHeader {
+    text-align: center;
+    margin-top: 10vh;
+    color: aliceblue;
+    border-bottom: solid 2px white;
+}
+
+.AboutHeader span {
+    color: aquamarine;
+}
+
+.AboutMain {
+    margin-left: 40px;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.AboutGrid .picOne img {
+    height: 30vh;
+}
+
+.AboutGrid .picTwo img {
+    height: 30vh;
+    padding-top: 20px;
+
+}
+
+.AboutText {
+    text-align: center;
+}
+
+.AboutGrid .picThree img {
+    height: 30vh;
+    padding-bottom: 70px;
+}
+
+.AboutGrid .picFour img {
+    height: 30vh;
+    padding-top: 20px;
+}
+
+.AboutGrid .GridLineOne {
+    display: flex;
+    padding-right: 6vw;
+    float: right;
+}
+
+.AboutGrid .GridLineTwo {
+    display: flex;
+    padding-right: 6vw;
+    float: right;
+
+
+}
+
+.AboutGrid img {
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+
+}
+
+.AboutText {
+    padding-right: 3vw;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 20vh;
+    border-top: solid black;
+
+}
+
+.FooterContent {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.FooterContent span {
+    color: aquamarine;
+}
